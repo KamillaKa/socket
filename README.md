@@ -12,7 +12,7 @@ This is a real-time chat application built using Node.js, Express, and Socket.IO
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/chat-app.git
+    git clone https://github.com/KamillaKa/chat-app.git
     cd chat-app
     ```
 
