@@ -43,7 +43,7 @@ This is a real-time chat application built using Node.js, Express, and Socket.IO
 - [Socket.IO](https://socket.io/) - Library for real-time web applications.
 
 ## Namespaces
-Namespaces are a way to divide the connection space into different communication channels, allowing multiple endpoints within the same server. Each namespace has its own connection and can emit or listen to events separately from others. They are identified by a path, like ´/admin´ or ´/chat´.
+Namespaces are a way to divide the connection space into different communication channels, allowing multiple endpoints within the same server. Each namespace has its own connection and can emit or listen to events separately from others. They are identified by a path, like `/admin` or `/chat`.
 
 **Difference from Rooms:**
 **Namespaces** are like separate sections of the server. Users connected to one namespace won’t communicate with users in another namespace.
@@ -52,8 +52,8 @@ Namespaces are a way to divide the connection space into different communication
 Namespaces can be used to create different types of chats or services. 
 For example:
 
-´/public-chat´ for general chat rooms.
-´/private-chat´ for one-on-one conversations.
-´/admin´ for administrative functions.
+`/public-chat` for general chat rooms.
+`/private-chat` for one-on-one conversations.
+`/admin` for administrative functions.
 
 By separating these with namespaces, the different types of chats won’t interfere with each other, making the system more organized.
